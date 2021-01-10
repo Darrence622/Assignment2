@@ -2,7 +2,7 @@
 
 My assignment revolves around giving user's a city's weather condition right then and there, it will help user to identify the different weathers in different cities.
  
-## Design Process LATER
+## Design Process
 
 My design is extremely simple with just a black background and white fonts, my website is for users to identify the different weather conditions and temperature of locations that are far away from them. 
 
