@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <!--<div id="clock">
+    </div>-->
+
+    <div class="weatherforecast">
+        <form>
+            <label for="cityInput">City Name: </label>
+            <select name="cityInput" id="city-menu">
+                <option value="Singapore,SG">Singapore, SG</option>
+                <option value="London,UK">London, UK</option>
+                <option value="California,US">California, US</option>
+                <option value="Herefordshire,GB">Herefordshire, GB</option>
+                <option value="Hong Kong,HK">Hong Kong, HK</option>
+                <option value="Mongolia,MN">Mongolia, MN</option>
+                <option value="Seoul,KR">Seoul, KR</option>
+                <option value="Dubai,AE">Dubai, AE</option>
+                <option value="New York City,US">New York City, US</option>
+                <option value="Moscow,RU">Moscow, RU</option>
+                <option value="USA,JP">USA, JP</option>
+                <option value="Luxembourg,BE">Luxembourg, BE</option>
+                <option value="Cape Town,ZA">Cape Town, ZA</option>
+            </select>
+            <br>
+            <button type="button" id="submit">Submit</button>
+        </form>
+
+        <div class="weather">
+            <span>Weather Condition:</span>
+            <br>
+            <span id="result-display">Result</span>,
+            <span id="description">Description</span>
+        </div>
+
+
+        <div class="temperature">
+            <span>Temperature:</span>
+            <br>
+            <span id="temperature">Temperature (Celsius)</span>°C
+        </div>
+
+        <div class="feel">
+            <span>Feels Like:</span>
+            <br>
+            <span id="feels-like">Feels like (Celsius)</span>°C
+        </div>
+    </div>
+
+    <div id="map" style="width:800px; height:350px"></div>
+
+    <!-- Optional JavaScript -->
+    <!--INPUT JAVASCRIPT LINK-->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW8noKqQqiTWtuQbOfSmR1ppcc2t66xvI&callback=initMap"></script>
+    <script src="maps.js"></script>
+</body>
+
+</html>
